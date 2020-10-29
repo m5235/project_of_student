@@ -1,0 +1,14 @@
+version: '2.0'
+services:
+  #MONGODB Service
+  mydb:
+    image: mongo:latest
+    container_name: mydb
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "27018:27017"
+    #environment:
+     # MONGO_INITDB_ROOT_USERNAME: root
+     # MONGO_INITDB_ROOT_PASSWORD: root
+

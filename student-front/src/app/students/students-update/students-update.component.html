@@ -1,0 +1,30 @@
+<div>
+    <h2>Student Edit</h2>
+    <div>
+      <label>Student Email:
+        <input [(ngModel)]="studentData.email"/>
+      </label><br>
+      <label>Student Password:
+        <input [(ngModel)]="studentData.password"/>
+      </label><br>
+      <label>Student First Name:
+        <input [(ngModel)]="studentData.firstname"/>
+      </label><br>
+      <label>Student Last Name:
+        <input [(ngModel)]="studentData.lastname"/>
+      </label><br>
+      <label>Student Grade:
+        <input [(ngModel)]="studentData.level"/>
+      </label><br>
+      <label>Student Identifier:
+        <input [(ngModel)]="studentData.identifier"/>
+      </label><br>
+      <label>Student ClassRoom:
+        <input [(ngModel)]="studentData.room"/>
+      </label><br>
+      <label>Student School:
+        <input [(ngModel)]="studentData.school"/>
+      </label><br>
+    </div>
+    <button (click)="updateStudent()">Update</button>
+  </div>

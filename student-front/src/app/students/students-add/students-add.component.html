@@ -1,0 +1,30 @@
+<div>
+    <h2>Add Student</h2>
+    <div>
+      <label>Student Email:
+        <input [(ngModel)]="studentData.email" placeholder="Student Email"/>
+      </label><br>
+      <label>Student Password:
+        <input [(ngModel)]="studentData.password" placeholder="Student Password"/>
+      </label><br>
+      <label>Student First Name:
+        <input [(ngModel)]="studentData.firstname" placeholder="Student First Name"/>
+      </label><br>
+      <label>Student Last Name:
+        <input [(ngModel)]="studentData.lastname" placeholder="Student Last Name"/>
+      </label><br>
+      <label>Level:
+        <input [(ngModel)]="studentData.level" placeholder="Student Level"/>
+      </label><br>
+      <label>Identifier:
+        <input [(ngModel)]="studentData.identifier" placeholder="Student Identifier"/>
+      </label><br>
+      <label>Classroom:
+        <input [(ngModel)]="studentData.room" placeholder="ClassRoom #"/>
+      </label><br>
+      <label>School Name:
+        <input [(ngModel)]="studentData.school" placeholder="School Name"/>
+      </label><br>
+    </div>
+    <button (click)="addStudent()">Save</button>
+  </div>
