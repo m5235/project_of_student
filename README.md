@@ -5,18 +5,6 @@ ________________________________________________________________________________
 
 
 
-
-
-
-
-
-
-
-![Alt text](/home/momo/Bureau/123134021_2697668970562305_6960995416624415466_n.png)
-
-
-
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
 ## Development server
